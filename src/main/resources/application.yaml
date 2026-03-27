@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: course-application
+
+  profiles:
+    include: db
+
+server:
+  port: 8888
